@@ -20,6 +20,7 @@ public class ReadFile {
         try {
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(
+                            //new FileInputStream(nameOfTXTFile), "utf-8")); //windows-1251,cp1251
                             new FileInputStream(nameOfTXTFile), GetPass.ENCODING_STATUS)); //UTF8
 
             String c;

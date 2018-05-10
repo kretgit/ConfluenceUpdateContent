@@ -17,7 +17,7 @@ public class GetPass {
     public static String PAGE_ID;
 
 
-    static String path = System.getProperty("user.name");
+    static String path = System.getProperty("user.home");
 
     public static void getCredentials() throws IOException {
 
@@ -26,7 +26,7 @@ public class GetPass {
 
         try {
 
-            fis = new FileInputStream("C:\\Users\\" + path + "\\confluence.properties");
+            fis = new FileInputStream(/*"C:\\Users\\" +*/ path + "/confluence.properties");
             prop.load(fis);
 
     BASE_URL = prop.getProperty("BASE_URL");
