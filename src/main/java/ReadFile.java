@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 public class ReadFile {
 
 
-    //static String nameOfTXTFile = "C://Users//SBT-Kretov-AA//Downloads//status.txt";
+    //static String nameOfTXTFile = "C://Users//xxxxxxxxx//Downloads//status.txt";
     static String nameOfTXTFile = GetPass.STATUS_PATH; //place where you should put body-file
     static String textFromTXTFile = "";
 
